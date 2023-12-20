@@ -1,0 +1,16 @@
+spring:
+  data:
+    elasticsearch:
+      client:
+        nodes: http://localhost:9200
+
+elasticsearch:
+  rest:
+    client:
+      enabled: true
+  repositories:
+    enabled: true
+
+logging:
+  level:
+    org.springframework.data.elasticsearch: DEBUG
