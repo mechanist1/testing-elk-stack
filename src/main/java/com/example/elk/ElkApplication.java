@@ -9,7 +9,7 @@ public class ElkApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ElkApplication.class, args);
-        System.out.println("elk is working ");
+        System.out.println("elk is working on port 8080 ");
     }
 
 }
